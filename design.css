@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Orbitron:800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lemonada&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav_bar{
+  height: 10vh;
+  background-color: rgb(43, 226, 211);
+}
+  
+.landingPage{
+  background-image: url(images/green-leaf-plant-808510.jpg);
+  min-height: 100vh; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1.0;
+  text-align: center;
+  color: bisque;
+
+}
+.heading{
+  font-size: 155px;
+  font-family: 'ZCOOL KuaiLe', cursive;
+  padding-top: 13%;
+}
+.types{
+  margin: 50px 0;
+  size: 100vh;
+}
+.types img{
+  width: 100%;
+  padding: 20px 0;
+  transition: transform .2s;
+  height: 60vh;
+}
+.types img:hover {
+  transform: scale(1.2);
+}
+.container{
+  background-color:rgb(204, 204, 235);
+  margin: 0;
+  padding: 0;
+}
+.names{
+  text-align: center;
+  text-decoration: none;
+   color: white;
+
+   font-family: 'Orbitron', sans-serif;
+}
+#chairs1,#chairs2{
+  height: 100vh;
+  width: auto;
+
+}
+#chairs1{
+  margin-left: 25%;
+}
+#chairs2{
+  width: 440px;
+  align-content: center;
+  margin-left: 5%;
+}
+
+#leaf{
+  -ms-transform: rotate(-20deg); /* IE 9 */
+  transform: rotate(-20deg);
+  height: 100vh;
+}
+.aboutUs{
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 55px;
+  text-align: center;
+  color: darkgreen;
+}
+.about{
+   font-size: 20px;
+   text-align: center;
+  font-family: 'Lemonada', cursive;
+}
+#chairs1,#chairs2{
+  display: block;
+}
+
+.overlay2{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  width: 440px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(90, 197, 95);
+  align-content: center;
+  margin-left: 7%;
+}
+.overlay1{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  width: 397px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(90, 197, 95);
+  align-content: center;
+  margin-left: 26%;
+}
+
+.container-2:hover .overlay1 {
+  opacity: 0.8;
+}
+.container-2:hover .overlay2 {
+  opacity: 0.8;
+}
+
+.text2,.text1 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 1;
+}
+.footer{
+text-align: center;
+background-color:rgb(34, 138, 34);
+}
+button{
+  background-color: rgb(34, 138, 34);
+  border-radius: 50%;
+  border: none;
+}
+.getIn{
+  font-family: 'Architects Daughter', cursive;
+  font-size: 40px;
+  color: white;
+}
